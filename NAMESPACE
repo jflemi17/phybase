@@ -1,0 +1,4 @@
+useDynLib(phybase, .registration = TRUE)
+exportPattern("^[^\\.]")
+importFrom(ape,plot.phylo,read.tree,write.tree,nj)
+importFrom(Matrix,expm,Matrix)
